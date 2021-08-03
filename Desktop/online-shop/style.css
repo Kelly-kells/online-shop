@@ -1,20 +1,35 @@
 .hero{
-    background: linear-gradient(#f8fafc 95%, #CEEBF5 10%);
+    background:linear-gradient( #c8d6e6 60%, #80cae2 );
     display: grid;
     grid-template-columns: 50% 50%;
     height: 570px;
-    width: 1000px;
+    width: 1200px;
 
 }
 
 .hero-img{
     margin-bottom: 500px ;
-   position: absolute;
-    margin-left: 400px;
+   
+    margin-top: 15px;
     margin-bottom: 200px;
     border-radius: 0 0 30px 30px;
-    width: 1000px;
-    margin-top: 50px;
+    
+    
+    
+border-radius: 0px 0px 500px 500px;
+
+}
+
+.column-1{
+display: grid;
+grid-template-columns:4fr 5fr ;
+gap: 2rem;
+margin-top: 30px;
+}
+.watch-img{
+   width: 600px;
+   height: 250px;
+    background-color: #dddedf;
 }
 
 
