@@ -1,9 +1,28 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 30px 50px;
+    line-height: 1.4;
+}
+.wrapper{
+display: grid;
+grid-gap:09px;
+
+}
+img{
+    max-width: 100%;
+    
+}
+
+
 .hero{
     background:linear-gradient( #c8d6e6 60%, #80cae2 );
     display: grid;
     grid-template-columns: 50% 50%;
     height: 570px;
     width: 1200px;
+    
 
 }
 
@@ -13,7 +32,8 @@
     margin-top: 15px;
     margin-bottom: 200px;
     border-radius: 0 0 30px 30px;
-    
+    min-height: 400x;
+    background-size: cover;
     
     
 border-radius: 0px 0px 500px 500px;
@@ -22,15 +42,31 @@ border-radius: 0px 0px 500px 500px;
 
 .column-1{
 display: grid;
-grid-template-columns:4fr 5fr ;
-gap: 2rem;
-margin-top: 30px;
+grid-template-areas:
+
+' she watch-img   touch' ;
+
+grid-gap:15px;
+grid-template-columns: 4fr 5fr ;
+
 }
 .watch-img{
-   width: 600px;
-   height: 250px;
-    background-color: #dddedf;
+    width: 500px;
+   grid-area: watch-img;
+background: url(images/wristitem.png);
+  height: 300px;
+   background-position: left;
+    background-color: #dddedf; 
 }
+.touch{
+    grid-area: touch;
+    margin-top: 100px;
+}
+.btn2{
+    background-color: black;
+    color: white;
+}
+
 
 
 
